@@ -48,7 +48,11 @@ const reduceToAllTrue = function(sourceArray) {
 
 const reduceToAnyTrue = function(sourceArray) {
   for (let i = 0; i < sourceArray.length; i++ ) {
+<<<<<<< HEAD
     if (sourceArray[i]) return true
+=======
+    if (sourceArray) return true
+>>>>>>> c67bb6e04e0111a53ac2a88da341b57a0d5d4fee
   }
   return false
 }
